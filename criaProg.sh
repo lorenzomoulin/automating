@@ -9,5 +9,5 @@ if [ "$COMANDO" ];then
 	xdotool key Return; xdotool key Return; xdotool type 'int main(){';xdotool key Return
 	xdotool key Tab; xdotool type 'return 0;'; xdotool key Return; xdotool type '}'
 else 
-	dialog --title "Erro" --infobox "Xdotool nao instalado" 10 30; sleep 4; clear
+	dialog --title "Erro" --infobox "tem que instalar o Xdotool, retardado" 10 30; sleep 4; clear
 fi 
